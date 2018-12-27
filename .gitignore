@@ -4,7 +4,7 @@ npm-debug.log
 yarn-error.log
 
 .gitignore
-src
+srcgi
 # Editor directories and files
 .idea
 *.suo
