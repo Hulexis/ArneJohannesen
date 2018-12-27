@@ -31,7 +31,7 @@ export default {
     .logo__btn{
         background: none;
         border: none;
-        padding-left: 100px;
+        margin-left: 100px;
         color: white;
         text-decoration: none;
         font-size: 50px;

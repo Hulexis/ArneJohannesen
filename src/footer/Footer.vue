@@ -1,26 +1,15 @@
 <template>
     <div class="footer">
-        <h1 class="footer__logo">The Rare Banana Copyright © 2018. All rights reserved.</h1>
+        <h1 class="footer__logo">Arne Johannesens Copyright © 2018. All rights reserved.</h1>
         <div class="links">
             <div class="links__types">
                 <p class="links__header">Links:</p>
                 <ul class="footer__ul">
                     <li class="footer__list">
-                        <a class="footer__link" href="/about">About</a>
+                        <a class="footer__link" href="/">Home</a>
                     </li>
                 </ul> 
             </div>   
-
-            <div class="links__types">
-                <p class="links__header" >Converters:</p>
-                <ul class="footer__ul">
-                    <li class="footer__list">
-                        <a class="footer__link" href="/converter">Time Converter</a>
-                    <li class="footer__list">
-                        <a class="footer__link" href="/ converter">Length Converter</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </div>
 </template>

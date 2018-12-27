@@ -8,11 +8,12 @@
           <app-clock></app-clock>
         </app-grid-item>
 
-        <app-grid-item class="grid__converter">
-          <app-converter></app-converter>
-        </app-grid-item>
-        
-        <app-grid-item></app-grid-item>
+        <app-grid-item class='theRareBanan__add'>
+          <h1 class="theRareBanan__text">My webpage: </h1>
+          <a class="theRareBanan__link" href="https://www.therarebanana.com">
+            <img class="theRareBanan__img" src="./assets/top-logo.png" alt="">
+          </a>
+        </app-grid-item>        
       </div>
     </div>
   </div>
@@ -52,6 +53,35 @@ export default {
     &:last-child{
       margin-right: 0px;
     }
+  }
+
+  .theRareBanan__add{
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .theRareBanan__link{
+    color: black;
+    text-decoration: none;
+
+    height: fit-content;
+    height: -moz-fit-content;
+
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .theRareBanan__text{
+    font-size: 60px;
+    margin: 0px;
+  }
+
+  .theRareBanan__img{
+    height: 80px;
+    
+    background: black;
   }
 
   .grid__converter{
